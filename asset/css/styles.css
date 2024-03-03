@@ -1,0 +1,114 @@
+/* */
+html {
+  padding: 10px;
+}
+
+/* Header */
+.title {
+  background-image: url("../image/pattern.jpeg");
+  background-size: cover;
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* Item */
+.item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 25px auto 25px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.item-image {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.item-desc {
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+.brushes {
+  background-color: mediumspringgreen !important;
+}
+
+.frames {
+  background-color: lightcoral !important;
+}
+
+.paint {
+  background-color: skyblue !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 56px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .title {
+    font-size: 56px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
